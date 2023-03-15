@@ -1,0 +1,31 @@
+.body{
+    display: flex;
+   
+    
+}
+
+.btn{
+     width: 50%;
+    margin: auto;
+   
+}
+
+.imagediv{
+    width: 50% fit-content;
+    height: auto;
+    margin: 1px;
+    padding: 1px;
+    border: 2px red solid;
+}
+
+
+
+
+.button{
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
