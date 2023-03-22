@@ -1,0 +1,20 @@
+.maindiv {
+    display: flex;
+
+    padding: 20px;
+
+}
+
+
+.textdiv {
+
+    padding: 20px;
+    padding-top: 0;
+}
+
+@media (max-width: 800px) {
+    .maindiv {
+        display: inline;
+    }
+
+}

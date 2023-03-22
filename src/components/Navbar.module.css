@@ -1,0 +1,120 @@
+.main{
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+.logo{
+    
+
+    margin-left: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    width: auto;
+    
+
+}
+.h2{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.menu{
+    
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   
+    width: 50%;
+    margin: 0;
+
+}
+
+.bar{
+    list-style: none;
+    display: flex;
+     gap: 70px;
+    margin-top: 25px; 
+    margin-left: -70px; 
+    justify-content: flex-start;
+    justify-content: space-around;
+    width: 75%;
+    color: rgb(197, 18, 18);
+}
+
+.loginBar{
+    display: flex;
+    
+    
+    justify-content: right;
+    margin-top: 20px;
+   
+    
+}
+.loginbtn{
+    height: 50px;
+    width: 150px;
+    margin-top: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+.signupbtn{
+    height: 40px;
+    width: 100px;
+    border: 5px;
+    border-radius: 20px;
+    
+}
+.menuicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .menuicon{
+        display: flex;
+        position: absolute;
+        top: 30px;
+        right: 3vw;
+
+    }
+    
+    .menu{
+        display: none;
+    }
+    .loginBar{
+        display: none;
+    }
+    .mobileMenu{
+        position: absolute;
+        display: block;
+        list-style: none;
+        background-color: #005469;
+        left: 0;
+        top: 75px;
+        transition: all 0.5s ease-out;
+        width: 100%;
+        
+
+    }
+    .bar{
+        display: inline-block;
+        font-size: large;
+        font-style: italic;
+         
+    }
+    
+
+}
