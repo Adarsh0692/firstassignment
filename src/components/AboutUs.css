@@ -1,0 +1,21 @@
+.about-img{
+    width: 30%;
+    
+}
+.about-img{
+    text-align: center;
+    width: 40%;
+}
+.pic_img{
+    height: 300px;
+    width: 300px;
+   
+    border-radius: 10px;
+}
+.main-about{
+    display: flex;
+}
+.about-content{
+   
+    width: 60%;
+}

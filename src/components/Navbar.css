@@ -1,0 +1,35 @@
+.main-nav{
+    display: flex;
+    
+    box-shadow: 2px 2px 10px lightgray;
+    
+}
+
+.link-nav{
+    display: flex;
+   
+    
+    width: 40%;
+    
+    
+}
+.design-nav{
+    
+    width: 50%;
+    margin-left: 10vw;
+}
+.nav-logo{
+    
+    width: 10%;
+    
+    text-align: center;
+}
+.links{
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    
+}
+.home_page{
+    text-align: center;
+}

@@ -1,0 +1,39 @@
+.main_login{
+    background-color: rgb(70, 139, 218);
+    height: 500px;
+    width: 100%;
+    position: absolute;
+}
+.login_form{
+    height: 400px;
+    width: 500px;
+   
+    margin-top: 80px;
+    margin-left: 30%;
+    background-color: aliceblue;
+}
+.profile_pic{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 40%;
+    margin-top: -40px;
+}
+.inpt{
+    display: block;
+    margin-left: 40px;
+    margin-top: 30px;
+    height: 30px;
+    width: 350px;
+    
+}
+.btn{
+    margin-top: 30px;
+    margin-left: 300px;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(121, 121, 196);
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+}
