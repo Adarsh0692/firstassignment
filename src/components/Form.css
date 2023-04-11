@@ -1,0 +1,59 @@
+.main_div{
+   
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;   
+    justify-content: space-around;
+}
+
+.input_div{
+  
+    height: 250px;
+    width: 45%;
+    background-color: blueviolet;
+    
+}
+.ref_div{
+   
+    height: 250px;
+    width: 45%;
+    background-color: beige;
+    
+
+}
+.output_div{
+   
+    min-height: 300px;
+    margin: 40px;
+    padding: 10px;
+    background-color: blanchedalmond;
+}
+.input_div [type=text] {
+    height: 35px;
+    width: 30vw;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+
+}
+.input_div [type=number] {
+    height: 30px;
+    width: 30vw;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+
+}
+.parant_div{
+    background-color: aquamarine;
+}
+.btn{
+    background-color: rgb(236, 46, 46);
+    height: 35px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    color: azure;
+    font-size: medium;
+}
