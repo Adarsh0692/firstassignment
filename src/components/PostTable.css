@@ -1,0 +1,13 @@
+table{
+    border: 2px solid gray;
+    border-collapse: collapse;
+}
+tr,th,td{
+    border:2px solid gray ;
+}
+.action{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+}
