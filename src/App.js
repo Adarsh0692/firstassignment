@@ -8,15 +8,11 @@ import ContactPage from './components/ContactPage';
 
 
 function App() {
-  return (
-    
+  return ( 
       <BrowserRouter>
-     
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/contect' element={<ContactPage/>} />
-        
-       
       </Routes>
       </BrowserRouter>
     
