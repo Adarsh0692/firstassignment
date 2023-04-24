@@ -1,0 +1,50 @@
+.list{
+    border: 2px solid red;
+    width: 30%;
+    height: 30px;
+    padding: 5px;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 35%;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: aqua;
+    /* color: brown; */
+}
+
+.add{
+    margin-left: 10px;
+    background-color: rgb(75, 207, 163);
+    border: none;
+    width: 50px;
+    height: 30px;
+    border-radius: 6px;
+}
+input{
+ height: 30px;
+ width: 300px ;
+ border-radius: 10px;
+ background-color: beige;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-weight: bold;
+}
+.delete{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+.comp{
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+.undo{
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+}
